@@ -219,8 +219,8 @@ console.log(artists[2].bio)
 (no function needed) 
 There is a typo in your dataset 😱 The 9th artist, Vincent Van Gogh is currently Vincent Van Dough. Use an array method to fix this issue and console.log() to check your work. */
 
-artists[8].name= "Viencent Van Gogh"
-console.log(artists)
+// artists[8].name= "Viencent Van Gogh"
+// console.log(artists)
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀  
  Use getArtistByIndex to do the following:
@@ -311,9 +311,15 @@ Use lotsOfArt to do the following:
 
 For example lotsOfArt(artists); will return ["Amedeo Modigliani", "Rene Magritte", ... "Albrecht Dürer"]*/
 
-function lotsOfArt(/*Your Code Here*/){
-  /*Your Code Here*/
+function lotsOfArt(array){
+  const newArray = []
+  for( let i=0; i < array.length; i++){
+    if(array[i].paintings > 100){
+    newArray.push(array[i].paintings);
+    }
+  }return newArray;
 }
+console.log(lotsOfArt(artists));
 
 
 
