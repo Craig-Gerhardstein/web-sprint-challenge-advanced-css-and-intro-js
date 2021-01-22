@@ -137,8 +137,12 @@ button:hover{
 @media (max-width: 500px){
     .title-container div{
         width: 100%;
-        margin: 0,0;
+        margin: .5, auto;
         background-size: auto;
+        object-fit: cover;
+        height: 40vh;
+        background-position: center;
+        
     }
     nav{
         margin-left: 2%;
