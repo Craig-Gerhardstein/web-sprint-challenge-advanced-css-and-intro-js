@@ -138,6 +138,7 @@ button:hover{
     .title-container div{
         width: 100%;
         margin: 0,0;
+        background-size: auto;
     }
     nav{
         margin-left: 2%;
@@ -156,6 +157,10 @@ button:hover{
     }
     .artists-container .artist{
         width: 80%;
+    }
+    .artist img{
+        width: 40 rem;
+        height: auto;
     }
 
 }
