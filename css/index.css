@@ -148,8 +148,8 @@ button:hover{
         flex-direction: column;
     }
     nav span{
-        padding-left: 2%;
-        padding-right: 2%;
+        margin-left: 4%;
+        margin-right: 4%;
     }
 
 }
